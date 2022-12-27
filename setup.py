@@ -13,7 +13,7 @@ except ImportError:
 
 setup(
     name='itk-iomeshstl',
-    version='2.2.0',
+    version='2.3.0',
     author='Luis Ibáñez',
     author_email='community@itk.org',
     packages=['itk'],
@@ -48,6 +48,6 @@ setup(
     keywords='ITK InsightToolkit STL Mesh',
     url=r'https://github.com/InsightSoftwareConsortium/ITKIOMeshSTL',
     install_requires=[
-        r'itk>=5.2rc1'
+        r'itk-io>=5.3.0'
     ]
     )
